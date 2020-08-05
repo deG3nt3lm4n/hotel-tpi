@@ -68,6 +68,9 @@ ul{
 .clr{
   clear: both;
 }
+.l-heading{
+  font-size: 2.3rem;
+}
 /* navbar */
 #navBar{
   background-color: #454657;
@@ -143,6 +146,62 @@ ul{
 #features i{
   padding-bottom: 10px;
 }
+
+/* About info */
+#about-info{
+  padding-top: 30px;
+}
+.left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+.left p {
+  margin-bottom: 10px;
+}
+.right{
+  float: right;
+  text-align: center;
+  width: 50%;
+  min-height: 100%;
+}
+.right img{
+  border-radius: 50%;
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+/* Testimonials */
+#testimonials{
+  background: url('../img/testimonal.jpg') no-repeat center center/cover;
+  height: 600px;
+  padding-top: 100px;
+  color: #f4f4f4;
+}
+
+#testimonials h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.testimonial{
+  margin-bottom: 40px;
+  padding: 20px;
+  opacity: .9;
+  border-radius: 5px;
+}
+.testimonial img{
+  float: left;
+  border-radius: 30%;
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 100px;
+  max-height: 100px;
+}
+
+
 
 /* footer */
 #main-footer{

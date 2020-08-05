@@ -28,6 +28,12 @@ https://unsplash.com/photos/wKOKidNT14w
 person 2
 https://unsplash.com/photos/7DD6tfTKqS4
 
+person 3
+https://www.pexels.com/photo/woman-wearing-black-eyeglasses-1239291/
+
+testimonial
+https://www.pexels.com/photo/brown-wooden-framed-glass-display-cabinet-2319426/
+
 colors:
 primary-color: #454657
 Secondary-color: #8D8B79
