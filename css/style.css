@@ -1,0 +1,153 @@
+/* CSS Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,h2,h3{
+  padding-bottom: 20px;
+}
+ul{
+  list-style-type: none;
+}
+/* Utitlites */
+.container{
+  margin: 0 auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.text-primary{
+  color: #D07B3C;
+}
+.lead{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.btn{
+  display: inline-block;
+  border-radius: 5px;
+  padding: 14px 18px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #D07B3C;
+}
+.btn-dark{
+  background-color: #454657;
+  color: #f4f4f4;
+}
+.btn-light{
+  background-color: #DE8A44;
+  color: #333;
+}
+.bg-dark{
+  background-color: #454657;
+  color: #f4f4f4;
+}
+.bg-light{
+  background-color: #f4f4f4;
+  color: #333;
+}
+.bg-primary{
+  background-color: #DE8A44;
+  color: #333;
+}
+.clr{
+  clear: both;
+}
+/* navbar */
+#navBar{
+  background-color: #454657;
+  color: #f4f4f4;
+}
+#navBar .logo{
+  float: left;
+  padding: 20px;
+}
+#navBar ul{
+  float: right;
+}
+#navBar ul li{
+  float: left;
+}
+#navBar ul li a{
+  padding: 20px;
+  display: block;
+}
+#navBar li a:hover, .current{
+  background-color: #D07B3C;
+  color: #333;
+}
+
+/* Show Case */
+#showcase{
+  background: url('../img/heroImg.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+#showcase .showcase-content{
+  text-align: center;
+  color: #fff;
+  padding-top: 150px;
+}
+#showcase .showcase-content h2{
+  font-size: 60px;
+  line-height: 1.2em;
+  text-transform: capitalize;
+}
+
+/* About section */
+#about-info{
+  height: 400px;
+}
+#about-info .info-img{
+  background: url('../img/photo1.jpg') no-repeat center center/cover;
+  width: 50%;
+  float: left;
+  min-height: 100%;
+}
+#about-info .info-content{
+  text-align: center;
+  padding: 50px 20px;
+  float: right;
+  width: 50%;
+  overflow: hidden;
+}
+#about-info .info-content h3{
+  text-transform: capitalize;
+}
+#about-info .info-content p{
+  line-height: 1.7em;
+  padding-bottom: 20px;
+}
+
+/* Features */
+.box{
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  padding: 30px;
+}
+#features i{
+  padding-bottom: 10px;
+}
+
+/* footer */
+#main-footer{
+  background-color: #454657;
+  color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}

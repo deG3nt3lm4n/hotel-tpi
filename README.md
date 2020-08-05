@@ -10,7 +10,8 @@ the contact page will have a form and contact info with header w/nav and footer
 Now this is going to be a small basic website nothing special
 No flexbox
 no grid
-only floats
+only floats - aliging content
+font awesome - icons
 
 img hero
 https://unsplash.com/photos/CxiJt88QJdQ
@@ -26,6 +27,13 @@ https://unsplash.com/photos/wKOKidNT14w
 
 person 2
 https://unsplash.com/photos/7DD6tfTKqS4
+
+colors:
+primary-color: #454657
+Secondary-color: #8D8B79
+light-color: #DE8A44
+dark-color: #D07B3C
+alert-color: #DB524C
 
 Overall lets get this party started:
 Mini Project 1
